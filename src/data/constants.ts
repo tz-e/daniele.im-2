@@ -12,7 +12,7 @@ export const MENU_LINKS = [
 	// 	path: "/posts",
 	// },
 	{
-		title: "Resume",
+		title: "Résumé",
 		path: "https://drive.google.com/file/d/1mcHYmg7YKOiNTQTjEGiV-cPXnLLbl0tV/view",
 	},
 ];
