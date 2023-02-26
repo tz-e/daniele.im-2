@@ -1,7 +1,7 @@
 const siteMeta = {
-	author: "Chris Williams",
-	title: "Astro Theme Cactus",
-	description: "An opinionated starter theme for Astro",
+	author: "Daniele Atzeni",
+	title: "daniele.im",
+	description: "A safe place for Daniele Atzeni to post silly stuff.",
 	lang: "en-GB",
 	ogLocale: "en_GB",
 	githubUrl: "https://github.com/chrismwilliams/astro-theme-cactus",

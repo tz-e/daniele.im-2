@@ -1,0 +1,48 @@
+---
+import PageLayout from "@/layouts/Base";
+import { Image } from "@astrojs/image/components";
+import aboutImg from "../assets/about-astro.png";
+
+const meta = {
+	title: "Reading List",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">Reading list</h1>
+		<p>Currently reading</p>
+		<ul class="list-inside list-disc">
+			<li>
+				<a
+					href="https://blackie-edizioni.it/products/odissea-classici-liberati"
+					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+					>Odissea, Omero</a
+				>
+			</li>
+			<li>
+				<a
+					href="https://www.amazon.it/Manuale-giovani-apicoltori-lapicoltura-spiegata/dp/B09TYLTVV6"
+					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+					>Manuale per giovani apicoltori, Giancarlo Oldani</a
+				>
+			</li>
+			<li>
+				<a
+					href="https://www.panini.it/shp_ita_it/20th-century-boys-ultimate-deluxe-edition-1-m2cbu001isbn-it08.html"
+					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+					>20th Century Boys, Naoki Urasawa</a
+				>
+			</li>
+		</ul>
+		<p>Finished</p>
+		<p>2023</p>
+		<ul class="list-inside list-disc">
+			<li>to update</li>
+		</ul>
+		<p>2022</p>
+		<ul class="list-inside list-disc">
+			<li>to update</li>
+		</ul>
+	</div>
+</PageLayout>
