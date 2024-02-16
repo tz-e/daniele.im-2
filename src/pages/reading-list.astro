@@ -1,7 +1,5 @@
 ---
 import PageLayout from "@/layouts/Base";
-import { Image } from "@astrojs/image/components";
-import aboutImg from "../assets/about-astro.png";
 
 const meta = {
 	title: "Reading List",
@@ -15,9 +13,9 @@ const meta = {
 		<ul class="list-inside list-disc">
 			<li>
 				<a
-					href="https://www.adelphi.it/libro/9788845937576"
+					href="https://it.wikipedia.org/wiki/Non_%C3%A8_un_paese_per_vecchi"
 					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
-					>"V13", Emmanuel Carrère</a
+					>"Non e' un paese per vecchi", Cormac McCarthy</a
 				>
 			</li>
 			<li>
@@ -70,11 +68,20 @@ const meta = {
 		<p>2024</p>
 		<ul class="list-inside list-disc">
 			<li>
-				<a
-					href="https://it.wikipedia.org/wiki/Il_giovane_Holden"
-					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
-					>"Il giovane Holden", J. D. Salinger</a
-				>
+				<li>
+					<a
+						href="https://www.adelphi.it/libro/9788845937576"
+						class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+						>"V13", Emmanuel Carrère</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://it.wikipedia.org/wiki/Il_giovane_Holden"
+						class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+						>"Il giovane Holden", J. D. Salinger</a
+					>
+				</li>
 				<a
 					href="https://en.wikipedia.org/wiki/At_the_Existentialist_Caf%C3%A9/"
 					class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
