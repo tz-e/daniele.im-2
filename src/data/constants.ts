@@ -13,7 +13,7 @@ export const MENU_LINKS = [
 	// },
 	{
 		title: "Résumé",
-		path: "https://drive.google.com/file/d/1mcHYmg7YKOiNTQTjEGiV-cPXnLLbl0tV/view",
+		path: "https://drive.google.com/file/d/1xEjahSmHUOprAO0FszcFIqpMWJcjrebc/view",
 	},
 ];
 
